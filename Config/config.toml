@@ -1,0 +1,16 @@
+# .streamlit/config.toml
+
+[server]
+headless = true
+deploy=false
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 200  # in MB
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"  # hides Run, Deploy, Save, etc
+

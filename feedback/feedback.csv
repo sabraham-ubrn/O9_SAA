@@ -1,0 +1,76 @@
+What is an widget?,"According to the provided context, a widget is ""a grid where you can see your plan data"" within a Tab or Page.",positive
+What is an widget?,"According to the provided context, a widget is:
+
+""Widgets: Each Tab or Page may contain Widgets within, including a grid where you can see your plan data.""
+
+So, an o9 widget refers to a grid or a display area within a tab or page that shows plan data.",positive
+What is an widget?,"According to the provided context, a widget is described as ""Each Tab or Page may contain Widgets within, including a grid where you can see your plan data."" It appears that widgets are components that can be added to tabs or pages within a planning interface, and they allow users to view and manipulate their plan data.",positive
+How can I do seeding in class plan for LY?,"I see multiple FAQs that might be relevant to this question!
+
+Based on the provided context, here's my answer:
+
+You can seed all your classes with LY at one time by selecting multiple classes in your Seed Plan Action Button Parameters. This is true for parent/child relationships at any level of the hierarchy (e.g., all classes in a department, departments in a division, divisions in a brand, etc.).
+
+Additionally, you can also choose to seed from LY/LLY/LLLY/AVG3LY of a Like Class in the Seed Plan action button.
+
+Note that there's no mention of specific requirements or limitations for seeding plans with LY data. However, it's worth noting that when seeding from a like class, it is seeding from the plan time frame (WP), not the LY of the like class itself.",negative
+how do you seed a class plan from LY?,"According to Tips & Tricks - FAQ 2 and FAQ 3, you can seed multiple classes at once by selecting multiple classes in your Seed Plan Action Button Parameters. You can also choose to seed from LY/LLY/LLLY/AVG3LY of a Like Class in the Seed Plan action button.
+
+Additionally, according to Tips & Tricks - FAQ 4, if you're copying LY data into a plan and the LY data has not fully actualized yet, there is no indication what happens. The answer simply states ""The only measures that do not seed are RTV & Inv Adj.""",positive
+how do you seed a class plan from LY?,"According to the provided context, you can seed multiple classes with LY data at one time by selecting multiple classes in your Seed Plan Action Button Parameters. Additionally, you can also seed a class plan from LY/LLY/LLLY/AVG3LY of a Like Class in the Seed Plan action button.
+
+So, to answer your question: You can seed a class plan from LY by:
+
+1. Selecting multiple classes (including parent/child relationships) at one time using the Seed Plan Action Button Parameters.
+2. Choosing LY/LLY/LLLY/AVG3LY of a Like Class in the Seed Plan action button.
+
+Note that this only seeds measures that do not include RTV & Inv Adj, as mentioned on Page > Sales & Demand Planning View.",positive
+how do you seed a class plan from LY?,"According to FAQ 2 and FAQ 3, you can seed multiple classes with LY data at one time by selecting multiple classes in the Seed Plan Action Button Parameters. Additionally, FAQ 3 also mentions that when seeding from a like class, it is seeding from the plan time frame (WP), which means you can choose to seed from LY/LLY/LLLY/AVG3LY of a Like Class in the Seed Plan action button.
+
+Therefore, the helpful answer would be:
+
+""To seed a class plan from LY, you can select multiple classes at once in the Seed Plan Action Button Parameters. Alternatively, if you're seeding from a like class, you can choose to seed from LY/LLY/LLLY/AVG3LY of that Like Class.""",positive
+how to go to Hindsight Review Page?,"According to the context, you can access the Hindsight Review Page by navigating from the following locations:
+
+* Class Plan Workspace > Class Planning Page Group > Hindsight Review Page
+* Key Item Plan - Item Workspace > KIP - Style > Hindsight Review (for Product Level)
+* Attribute Plan Workspace > Attribute Planning Page Group > Hindsight Review Page",positive
+how to go to Hindsight Review Page?,"According to the context, you can navigate to the Hindsight Review Page by following these steps:
+
+* For Class Plan: From the Class Plan Workspace > Class Planning Page Group > Hindsight Review Page
+* For Key Item Plan - Style: From the Key Item Plan - Item Workspace > KIP - Style > Hindsight Review
+* For Attribute Plan: From the Attribute Plan Workspace > Attribute Planning Page Group > Hindsight Review Page
+
+Let me know if you have any further questions!",positive
+What's an Widget?,"I don't know. The provided context does not mention what a ""Widget"" is, only how to work with it (e.g., checking boxes, using arrows, searching, filtering, creating calculated metrics, etc.). It seems that the concept of a ""Widget"" is assumed knowledge and is not defined within this text.",negative
+What's an Widget?,"I don't know. The provided context doesn't explicitly define what a ""widget"" is, so I cannot provide a helpful answer without additional information.",negative
+What's an Widget?,"I don't know. The provided context appears to describe how to interact with or customize something, but it doesn't define what a ""Widget"" is. It seems to be assuming that the reader already knows what a widget is and is providing instructions on how to use it.",negative
+What is an Widget in the document?,"According to the context, a Widget is ""Each Tab or Page may contain Widgets within, including a grid where you can see your plan data.""",positive
+What is an Widget in the document?,"According to the provided context, a Widget is ""Each Tab or Page may contain Widgets within, including a grid where you can see your plan data."" It seems that Widgets are small components or tools that can be used on pages or tabs to display and interact with plan data.",positive
+What is an Widget in the document?,"According to the provided context, a Widget is ""each Tab or Page may contain Widgets within, including a grid where you can see your plan data.""",positive
+What are widgets?,"According to the provided context, a Widget is ""Each Tab or Page may contain Widgets within, including a grid where you can see your plan data.""",positive
+What's an seed plan?,"Based on the provided context, I would say that a ""seed plan"" is not explicitly defined in the given text. However, it appears that ""seeding"" refers to the process of using existing data from past or similar plans as the starting point for developing a new plan, which saves time and improves accuracy by inheriting key information instead of building everything from scratch.
+
+So, if I had to provide an answer based on this context, I would say:
+
+""A seed plan appears to be the foundation or basis used to develop a future plan, which is created by using data from past or similar plans. It seems that seeding involves choosing whether to use last year's data or data from a like style/color, and this process helps shape the future plan.""",positive
+"seed plan is provided in the document,  so you are wrong",I don't know,negative
+"seed plan is provided in the document,  so you are wrong","You are correct that ""Seed Plan"" is mentioned in the document, and therefore I would say:
+
+You are correct, and my answer is: You are right. The Seed Plan is indeed provided in the document, which contradicts your original statement.",negative
+what is an seed plan as per the document?,"According to the provided context, a ""seed"" refers to the starting point of developing a plan, where data from the past or a like plan is used to inherit key data, such as seasonality curves, metrics, and ratios. This inherited data serves as the basis for shaping the future plan.",positive
+what is Data Position  under option tab?,"I don't know. The provided context does not mention ""Data Position"" or any information related to it. It only discusses layout, terminology, and different pages in a setup sheet.",negative
+what is Data Position  under options tab?,"I don't know. The provided context doesn't mention ""Data Position"" under the Options tab. It only discusses the layout button, terminology related to location attribute file upload steps for the IT team, and various pages in an o9 setup sheet. If you provide more information about what Data Position refers to or where it is located within the options tab, I may be able to help further.",negative
+how can you add/manage favorites?,"According to the context, you can add/manage favorites by:
+
+* Navigating & Managing Favorites: Use the 3 vertical dots and choose which favorite to open.
+* Adding/Managing Favorites: Navigate to the first favorite you want to add to the workflow, bring up the workflow toolbar, and use the Add Favorite button. You can also change the order of favorites by using the arrows.
+
+It seems that adding and managing favorites is done through these two methods, one for individual favorites and another for managing multiple favorites within a workflow.",positive
+how can you add/manage favorites?,"According to the provided context, you can add and manage favorites in the following ways:
+
+* Once you have your view configured and filtered the way you like, click on the STAR, name your favorite, hit save! (Saving a Favorite)
+* To find a list of all your current favorites on all pages/tabs use the My Workspace page - use the refresh button to reload the list (Navigating & Managing Favorites)
+* Navigate to the first favorite you want to add to the workflow, once there, bring up the workflow toolbar and use the Add Favorite button (Adding/Managing Favorites)
+
+You can also reorder your favorites by using the arrows to move a favorite up or down in the workflow.",positive

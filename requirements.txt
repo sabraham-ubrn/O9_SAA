@@ -1,0 +1,17 @@
+streamlit~=1.44.1
+langchain-huggingface
+langchain-community
+torch
+transformers
+langchain-core
+Pillow
+PyMuPDF
+openai
+llama_index
+chromadb
+Ollama
+langchain
+pandas
+python-docx
+python-dotenv
+requests
