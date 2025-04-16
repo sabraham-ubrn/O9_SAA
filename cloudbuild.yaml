@@ -1,0 +1,19 @@
+substitutions:
+  _ARTIFACT: 'us.gcr.io/ecomm-hosting/merch-o9-ai-search'
+steps:
+  - name: gcr.io/cloud-builders/gcloud
+    entrypoint: 'bash'
+    args: [ '-c',
+            "gcloud secrets versions access latest --secret=github-build-access --format='get(payload.data)' | tr '_-' '/+' | base64 -d > decrypted-data.txt"
+    ]
+  - name: gcr.io/cloud-builders/docker
+    args: [ 'build',
+            '--build-arg', 'GIT_COMMIT=${SHORT_SHA}',
+            '--build-arg', 'GIT_BRANCH=${BRANCH_NAME}',
+            '-t', '${_ARTIFACT}:${BRANCH_NAME}-${SHORT_SHA}',
+            '-t', '${_ARTIFACT}:latest',
+            '.'
+    ]
+images: [ '${_ARTIFACT}:${BRANCH_NAME}-${SHORT_SHA}',
+          '${_ARTIFACT}:latest'
+]
