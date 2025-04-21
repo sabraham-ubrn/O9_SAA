@@ -5,7 +5,8 @@ import streamlit as st
 from rag_pipeline import create_or_load_vector_store, get_qa_chain
 
 # Set global styles
-font_color = "#ffffff"  # white font
+font_color = "#000000"  # white font
+##ffffff
 bg_color = "#000000"    # black background
 
 CONFIG_DIR = "Config"
@@ -27,13 +28,11 @@ st.markdown(f"""
         .time_based_title {{
             font-size: 24px;
             font-weight: bold;
-            background-color:{bg_color};
             color: {font_color};
             text-align: left;
         }}
         .time_based_caption {{
             font-size: 16px;
-            background-color:{bg_color};
             color: {font_color};
             text-align: left;
         }}
@@ -48,7 +47,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 #st.caption("")
-
+#background-color:{bg_color};background-color:{bg_color};
 # Session state setup
 if "messages" not in st.session_state:
     st.session_state.messages = []

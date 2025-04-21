@@ -10,11 +10,15 @@ from langchain_core.outputs import Generation, LLMResult
 load_dotenv()
 
 # Flexible configuration: use env var or fallback to host.docker.internal
-OLLAMA_HOST = os.getenv("OLLAMA_HOST", "localhost")
-OLLAMA_PORT = os.getenv("OLLAMA_PORT", "11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")
+# OLLAMA_HOST = os.getenv("OLLAMA_HOST", "localhost")
+# OLLAMA_PORT = os.getenv("OLLAMA_PORT", "11434")
+#OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")
+#OLLAMA_API_URL = f"http://{OLLAMA_HOST}:{OLLAMA_PORT}/api/generate"
 
-OLLAMA_API_URL = f"http://{OLLAMA_HOST}:{OLLAMA_PORT}/api/generate"
+#Added the below for Cloud Run
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")
+OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:8080")
+OLLAMA_API_URL=f"{OLLAMA_HOST}/api/generate"
 
 class OllamaRESTLLM(LLM):
     model: str = OLLAMA_MODEL
