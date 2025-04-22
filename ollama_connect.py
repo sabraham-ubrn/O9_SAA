@@ -16,7 +16,7 @@ load_dotenv()
 #OLLAMA_API_URL = f"http://{OLLAMA_HOST}:{OLLAMA_PORT}/api/generate"
 
 #Added the below for Cloud Run
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2")
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:8080")
 OLLAMA_API_URL=f"{OLLAMA_HOST}/api/generate"
 
