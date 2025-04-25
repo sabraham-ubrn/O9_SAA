@@ -2,7 +2,6 @@ from pathlib import Path
 import fitz  # PyMuPDF
 import torch
 from PIL import Image
-from langchain_chroma import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from transformers import CLIPProcessor, CLIPModel
@@ -13,6 +12,8 @@ from langchain.chains.combine_documents.stuff import StuffDocumentsChain
 from langchain.chains.llm import LLMChain
 from typing import List
 from ollama_connect import OllamaRESTLLM
+from langchain_community.vectorstores import Chroma
+
 
 import os
 
